@@ -1,5 +1,5 @@
 #!name=富途分流模块
-#!desc=自动将富途证券(Futu)与海外版(Moomoo)的流量分流至指定的策略组。
+#!desc=自动将富途证券(Futu)与海外版(Moomoo)，长桥和IBKRS的流量分流至指定的策略组。
 #!category=金融服务
 
 [Rule]
@@ -58,3 +58,34 @@ IP-CIDR,124.156.142.0/24,🔰 节点选择,no-resolve
 IP-CIDR,150.109.43.0/24,🔰 节点选择,no-resolve
 IP-CIDR,49.51.78.0/23,🔰 节点选择,no-resolve
 IP-CIDR,205.4.0.0/16,🔰 节点选择,no-resolve
+
+# 长桥
+DOMAIN-SUFFIX,longbridge.com,🔰 节点选择
+DOMAIN-SUFFIX,longbridge.hk,🔰 节点选择
+DOMAIN-SUFFIX,longbridgeapp.com,🔰 节点选择
+DOMAIN-SUFFIX,longbridge-ny.com,🔰 节点选择
+DOMAIN-SUFFIX,longportapp.com,🔰 节点选择
+DOMAIN-SUFFIX,longportapp.hk,🔰 节点选择
+DOMAIN-SUFFIX,longpb.com,🔰 节点选择
+DOMAIN-SUFFIX,lbkrs.com,🔰 节点选择
+DOMAIN-SUFFIX,lbkrs.hk,🔰 节点选择
+DOMAIN-SUFFIX,lbkrs.cn,🔰 节点选择
+DOMAIN-SUFFIX,lbkun.com,🔰 节点选择
+DOMAIN-SUFFIX,lbcharts.com,🔰 节点选择
+DOMAIN-SUFFIX,longbridge.cloud,🔰 节点选择
+DOMAIN-SUFFIX,longport.cloud,🔰 节点选择
+DOMAIN-KEYWORD,longbridge,🔰 节点选择
+DOMAIN-KEYWORD,longport,🔰 节点选择
+DOMAIN-KEYWORD,lbkrs,🔰 节点选择
+
+# 长桥 IP 分流
+IP-CIDR,43.129.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,129.226.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,150.109.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,119.29.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,121.5.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,124.156.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,47.52.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,47.75.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,8.210.0.0/16,🔰 节点选择',no-resolve
+IP-CIDR,47.242.0.0/16,🔰 节点选择',no-resolve

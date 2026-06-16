@@ -52,3 +52,30 @@ payload:
   - IP-CIDR,150.109.43.0/24,no-resolve
   - IP-CIDR,49.51.78.0/23,no-resolve
   - IP-CIDR,205.4.0.0/16,no-resolve
+  - DOMAIN-KEYWORD,longbridge
+  - DOMAIN-KEYWORD,longport
+  - DOMAIN-KEYWORD,lbkrs
+  - DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,longbridge.hk
+  - DOMAIN-SUFFIX,longbridgeapp.com
+  - DOMAIN-SUFFIX,longbridge-ny.com
+  - DOMAIN-SUFFIX,longportapp.com
+  - DOMAIN-SUFFIX,longportapp.hk
+  - DOMAIN-SUFFIX,longpb.com
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,lbkrs.hk
+  - DOMAIN-SUFFIX,lbkrs.cn
+  - DOMAIN-SUFFIX,lbkun.com
+  - DOMAIN-SUFFIX,lbcharts.com
+  - DOMAIN-SUFFIX,longbridge.cloud
+  - DOMAIN-SUFFIX,longport.cloud
+  - IP-CIDR,43.129.0.0/16,no-resolve
+  - IP-CIDR,129.226.0.0/16,no-resolve
+  - IP-CIDR,150.109.0.0/16,no-resolve
+  - IP-CIDR,119.29.0.0/16,no-resolve
+  - IP-CIDR,121.5.0.0/16,no-resolve
+  - IP-CIDR,124.156.0.0/16,no-resolve
+  - IP-CIDR,47.52.0.0/16,no-resolve
+  - IP-CIDR,47.75.0.0/16,no-resolve
+  - IP-CIDR,8.210.0.0/16,no-resolve
+  - IP-CIDR,47.242.0.0/16,no-resolve
