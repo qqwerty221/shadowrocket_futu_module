@@ -1,0 +1,60 @@
+#!name=富途分流模块
+#!desc=自动将富途证券(Futu)与海外版(Moomoo)的流量分流至指定的策略组。
+#!category=金融服务
+
+[Rule]
+# 富途 (Futu / Moomoo) 域名分流
+DOMAIN-SUFFIX,futu.com,🔰 节点选择
+DOMAIN-SUFFIX,futunn.com,🔰 节点选择
+DOMAIN-SUFFIX,futuhk.com,🔰 节点选择
+DOMAIN-SUFFIX,futucn.com,🔰 节点选择
+DOMAIN-SUFFIX,futu5.com,🔰 节点选择
+DOMAIN-SUFFIX,futu.cn,🔰 节点选择
+DOMAIN-SUFFIX,futu.link,🔰 节点选择
+DOMAIN-SUFFIX,futuholdings.com,🔰 节点选择
+DOMAIN-SUFFIX,fututrade.com,🔰 节点选择
+DOMAIN-SUFFIX,futufb.com,🔰 节点选择
+DOMAIN-SUFFIX,futusg.com,🔰 节点选择
+DOMAIN-SUFFIX,futumoney.com,🔰 节点选择
+DOMAIN-SUFFIX,futuau.com,🔰 节点选择
+DOMAIN-SUFFIX,futucie.com,🔰 节点选择
+DOMAIN-SUFFIX,futusec.com,🔰 节点选择
+DOMAIN-SUFFIX,futuapi.com,🔰 节点选择
+DOMAIN-SUFFIX,futuhn.com,🔰 节点选择
+DOMAIN-SUFFIX,futufin.com,🔰 节点选择
+DOMAIN-SUFFIX,futuesop.com,🔰 节点选择
+DOMAIN-SUFFIX,futuin.com,🔰 节点选择
+DOMAIN-SUFFIX,futuhk1.com,🔰 节点选择
+DOMAIN-SUFFIX,futuhongkong.com,🔰 节点选择
+DOMAIN-SUFFIX,futuone.com,🔰 节点选择
+DOMAIN-SUFFIX,futu.one,🔰 节点选择
+DOMAIN-SUFFIX,futustatic.com,🔰 节点选择
+DOMAIN-SUFFIX,qtlcdn.com,🔰 节点选择
+DOMAIN-SUFFIX,nncdn.com,🔰 节点选择
+DOMAIN-SUFFIX,moomoocdn.com,🔰 节点选择
+DOMAIN-SUFFIX,moomoo.com,🔰 节点选择
+DOMAIN-SUFFIX,moomoo.li,🔰 节点选择
+DOMAIN-SUFFIX,moomoo.app,🔰 节点选择
+DOMAIN-SUFFIX,moomoo.jp,🔰 节点选择
+DOMAIN-SUFFIX,moomoo.com.au,🔰 节点选择
+DOMAIN-SUFFIX,moomoo.com.my,🔰 节点选择
+DOMAIN-SUFFIX,moomoo.com.sg,🔰 节点选择
+DOMAIN-SUFFIX,moomoofin.com,🔰 节点选择
+DOMAIN-SUFFIX,moomooenv.com,🔰 节点选择
+DOMAIN-SUFFIX,futuclearing.com,🔰 节点选择
+DOMAIN-KEYWORD,futu,🔰 节点选择
+DOMAIN-KEYWORD,futunn,🔰 节点选择
+DOMAIN-KEYWORD,moomoo,🔰 节点选择
+
+# 富途 IP 分流
+IP-CIDR,43.129.0.0/16,🔰 节点选择,no-resolve
+IP-CIDR,129.226.0.0/16,🔰 节点选择,no-resolve
+IP-CIDR,150.109.0.0/16,🔰 节点选择,no-resolve
+IP-CIDR,119.29.37.0/24,🔰 节点选择,no-resolve
+IP-CIDR,119.29.117.0/24,🔰 节点选择,no-resolve
+IP-CIDR,121.5.176.0/24,🔰 节点选择,no-resolve
+IP-CIDR,121.5.187.0/24,🔰 节点选择,no-resolve
+IP-CIDR,124.156.142.0/24,🔰 节点选择,no-resolve
+IP-CIDR,150.109.43.0/24,🔰 节点选择,no-resolve
+IP-CIDR,49.51.78.0/23,🔰 节点选择,no-resolve
+IP-CIDR,205.4.0.0/16,🔰 节点选择,no-resolve
